@@ -107,12 +107,3 @@ app.post('/api/alertas', (req, res) => {
 app.listen(PORT, () => {
     console.log(`🚀 Servidor Juanki Te Cuida operativo en puerto ${PORT}`);
 });
-```
-
----
-
-#### Opción 2: Validar de manera local antes de subir
-Antes de hacer el despliegue en Render, abre tu terminal en la carpeta donde tienes tu proyecto y ejecuta este comando de prueba[cite: 1]:
-
-```bash
-node -c server.js
